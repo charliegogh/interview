@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+        }
+        .box {
+            outline:1px solid  green;
+            overflow:hidden;
+        }
+        .fl,.fr{
+            outline:1px solid red;
+            width: 50px;
+            height: 100px;
+        }
+        .fl{
+            float:left;
+        }
+        .fr{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+<!--1. 高度塌陷问题-->
+<div class="box">
+    <div class="fl"></div>
+    <div class="fr"></div>
+</div>
+</body>
+</html>
