@@ -12,7 +12,7 @@ function debounce(func, delay) {
     }
 }
 
-
+// 防抖
 function throttle(fn, delay) {
     let timer = null
     return function(...args) {
